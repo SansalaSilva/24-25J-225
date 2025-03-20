@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Dashboard</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>SmartHome</h1>
+            <p>Prototype 1.0 | IT21197482 </p>
+        </header>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"><i class="fas fa-door-open"></i> Rooms</a></li>
+                <li><a href="#"><i class="fas fa-plug"></i> Devices</a></li>
+                <li><a href="#"><i class="fas fa-leaf"></i> Environment</a></li>
+                <li><a href="#"><i class="fas fa-shield-alt"></i> Security</a></li>
+                <li><a href="#"><i class="fas fa-cloud-sun"></i> Weather</a></li>
+                <li><a href="#"><i class="fas fa-history"></i> History</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Real-Time Sensor Readings -->
+            <section class="sensor-readings">
+                <h2><i class="fas fa-chart-line"></i> Real-Time Sensor Readings</h2>
+                <div class="sensor-data">
+                    <p>Current: <span id="current">0</span> A</p>
+                    <p>Voltage: <span id="voltage">0</span> V</p>
+                </div>
+            </section>
+
+            <!-- Machine Learning Predictions -->
+            <section class="ml-predictions">
+                <h2><i class="fas fa-brain"></i> Machine Learning Predictions</h2>
+                <div class="ml-data">
+                    <p>Predicted Energy Usage: <span id="ml-prediction">0</span> kWh</p>
+                    <p>Total Price: <span id="total-price-lkr">0</span> LKR</p>
+                </div>
+                <!-- Graph for Hourly Power Consumption -->
+                <div class="graph-container">
+                    <canvas id="hourly-power-consumption"></canvas>
+                </div>
+            </section>
+
+            <!-- Appliance Controls -->
+            <section class="appliance-controls">
+                <h2><i class="fas fa-sliders-h"></i> Appliance Controls</h2>
+                <div class="controls">
+                    <button id="lights-switch" class="btn-lights"><i class="fas fa-lightbulb"></i> Lights: <span id="lights-status">Off</span></button>
+                    <button id="fan-on" class="btn-fan"><i class="fas fa-fan"></i> Fan On</button>
+                    <button id="fan-off" class="btn-fan"><i class="fas fa-fan"></i> Fan Off</button>
+                    <button id="fridge-on" class="btn-fridge"><i class="fas fa-snowflake"></i> Fridge On</button>
+                    <button id="fridge-off" class="btn-fridge"><i class="fas fa-snowflake"></i> Fridge Off</button>
+                    <button id="fridge-hibernate" class="btn-fridge"><i class="fas fa-bed"></i> Fridge Hibernate</button>
+                    <button id="night-mode" class="btn-night"><i class="fas fa-moon"></i> Night Mode</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- Chart.js for graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

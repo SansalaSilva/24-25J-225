@@ -1,0 +1,276 @@
+
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-04 17:36:21
+Known Person Count: 0
+UnKnown Person Count: 0
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-04 18:15:37
+Known Person Count: 0
+UnKnown Person Count: 0
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-04 18:31:21
+Known Person Count: 19
+UnKnown Person Count: 24
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 03:00:03
+Known Person Count: 155
+UnKnown Person Count: 115
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 03:01:23
+Known Person Count: 204
+UnKnown Person Count: 4
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 09:26:26
+Known Person Count: 45
+UnKnown Person Count: 1
+------------------------------
+Time: 2024-12-05 09:27:26
+Known Person Count: 96
+UnKnown Person Count: 102
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 10:42:12
+Known Person Count: 172
+UnKnown Person Count: 23
+------------------------------
+Time: 2024-12-05 10:43:12
+Known Person Count: 316
+UnKnown Person Count: 1
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 10:48:43
+Known Person Count: 482
+Hidden Person Count: 1
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 10:55:25
+Known Person Count: 325
+Hidden Person Count: 0
+Unknown Person Count: 151
+------------------------------
+Time: 2024-12-05 10:56:25
+Known Person Count: 48
+Hidden Person Count: 0
+Unknown Person Count: 75
+------------------------------
+Time: 2024-12-05 10:57:25
+Known Person Count: 206
+Hidden Person Count: 0
+Unknown Person Count: 274
+------------------------------
+Time: 2024-12-05 10:58:25
+Known Person Count: 400
+Hidden Person Count: 0
+Unknown Person Count: 27
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 11:01:32
+Known Person Count: 384
+Hidden Person Count: 0
+Unknown Person Count: 37
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 11:08:47
+Known Person Count: 300
+Hidden Person Count: 0
+Unknown Person Count: 97
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 11:27:15
+Known Person Count: 330
+Hidden Person Count: 0
+Unknown Person Count: 154
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 13:27:43
+Known Person Count: 372
+Unknown Person Count: 34
+------------------------------
+Time: 2024-12-05 13:28:43
+Known Person Count: 77
+Unknown Person Count: 379
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 13:30:55
+Known Person Count: 384
+Unknown Person Count: 69
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 14:51:09
+Known Person Count: 334
+Unknown Person Count: 47
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 16:19:10
+Known Person Count: 172
+Unknown Person Count: 236
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-05 21:42:06
+Known Person Count: 283
+Unknown Person Count: 71
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2024-12-20 01:03:26
+Known Person Count: 230
+Unknown Person Count: 59
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2025-03-18 21:25:53
+Known Person Count: 236
+Unknown Person Count: 81
+------------------------------
+Time: 2025-03-18 21:26:53
+Known Person Count: 112
+Unknown Person Count: 51
+------------------------------
+Time: 2025-03-18 21:27:53
+Known Person Count: 0
+Unknown Person Count: 3
+------------------------------
+Time: 2025-03-18 21:28:53
+Known Person Count: 9
+Unknown Person Count: 57
+------------------------------
+Time: 2025-03-18 21:29:53
+Known Person Count: 173
+Unknown Person Count: 52
+------------------------------
+Time: 2025-03-18 21:30:53
+Known Person Count: 252
+Unknown Person Count: 50
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2025-03-19 19:42:08
+Known Person Count: 147
+Unknown Person Count: 21
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Time: 2025-03-20 00:48:05
+Known Person Count: 100
+Unknown Person Count: 75
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------
+Detection Counts (Every 60 Seconds)
+------------------------------

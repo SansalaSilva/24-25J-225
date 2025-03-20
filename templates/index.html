@@ -1,0 +1,88 @@
+{% extends 'holder.html' %}
+
+{% block content %}
+
+
+
+
+<style>
+
+        .counts {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .count-item {
+            margin: 10px 0;
+        }
+    </style>
+
+
+<!-- Main Content -->
+    <main>
+        <section class="section-padding pb-0 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12">
+                        <form class="custom-form hero-form" action="/" method="post" enctype="multipart/form-data">
+                            <center>
+                                <h3 class="text-white mb-3"> Detection    </h3>
+                            </center>
+
+                            <!-- Video Feed -->
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12 col-md-12 col-12">
+                                    <div id="video-feed-area" class="border p-3 text-center" style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.1);">
+                                        <p class="text-white">Live video feed is being processed...</p>
+                                        <img src="{{ url_for('video_feed') }}" width="100%" class="img-fluid mt-3" style="border-radius: 10px;" alt="Live Face Detection">
+                                    </div>
+
+
+
+                                    <div class="counts">
+        <div class="count-item" id="known-person-count">
+            Known Person Count: 0
+        </div>
+        <div class="count-item" id="unknown-person-count">
+            Unknown Person Count: 0
+        </div>
+    </div>
+
+    <script>
+        // Function to fetch and update detection counts every 2 seconds
+        function fetchDetectionCounts() {
+            fetch('/get_counts')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('known-person-count').textContent = 'Known Person Count: ' + data.known_person_count;
+                    document.getElementById('unknown-person-count').textContent = 'Unknown Person Count: ' + data.unknown_person_count;
+                })
+                .catch(error => console.error('Error fetching counts:', error));
+        }
+
+        // Fetch the counts every 2 seconds
+        setInterval(fetchDetectionCounts, 2000);
+    </script>
+
+
+                                </div>
+                            </div>
+
+                            <!-- Flash Messages -->
+                            {% with messages = get_flashed_messages() %}
+                                {% if messages %}
+                                    <div class="alert alert-warning mt-3">
+                                        <ul class="mb-0">
+                                            {% for message in messages %}
+                                                <li>{{ message }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                {% endif %}
+                            {% endwith %}
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

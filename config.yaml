@@ -1,0 +1,9 @@
+path: C:\Users\Abdurrahman Mashoor\Desktop\MyResearch\data  # dataset root dir
+train: images\train  # train images (relative to 'path')
+val: images\train  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Known_Person
+  1: Hidden_Person
+
